@@ -16,11 +16,6 @@ body{
   width: 100%; height: 56vw; /* для тега iframe youtube */
 }
 
-.bg{
-  width: 100%; height: 177vw; /* задаем высоту контейнера фоновой картинки в процентном соотношении от ширины*/
-  background: url(../img/bg.png) center repeat-y;/* Параметры фона */
-  background-size: contain; /* Масштабируем фон */
-}
 .bgName{
   width: 100%; height: 21vw; /* задаем высоту контейнера фоновой картинки в процентном соотношении от ширины*/
   background: url(../img/name.jpg) center no-repeat;/* Параметры фона */
