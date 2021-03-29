@@ -19,7 +19,7 @@ body{
 ol,ul{
   padding: 30px;
 }
-p{padding-left: 16px;}
+p{padding-left: 16px; text-align: center;}
 
 
 .vidWrapper{width: 100%; height: 100%; margin: 0 auto; background: #CCC;}
@@ -31,11 +31,13 @@ p{padding-left: 16px;}
   display: flex;  justify-content: space-around; 
 }
 .connectus>a, .extlinks>a{
-  padding: 4px; border: 1px solid #e30b5d; color: #e30b5d; flex-grow: 1; text-align: center; 
+  padding: 4px; flex-grow: 1; text-align: center; 
   border-radius: 4px; text-decoration: none; margin: 2px;
   font-size: 1.3em;
 }
 .extlinks{flex-wrap: wrap;}
+.vertus>a{border: 1px solid rgb(214, 82, 107); color: rgb(214, 82, 107);}
+.invertus>a{color: white; background-color: rgb(214, 82, 107); /*border: 1px solid azure;*/}
 
 .cntr{text-align: center;}
 
@@ -45,9 +47,11 @@ p{padding-left: 16px;}
   background-size: contain; /* Масштабируем фон */
   margin-bottom: 20px;
 }
+/* 56vw для тега iframe youtube 
 .ratio169{
-  width: 100%; height: calc(width * 56%); /* 56vw для тега iframe youtube */
+  width: 100%; height: calc(width * 56%); 
 }
+*/
 
 .bg{
   width: 100%; height: 177vw; /* задаем высоту контейнера фоновой картинки в процентном соотношении от ширины*/
@@ -59,14 +63,16 @@ p{padding-left: 16px;}
   background: url(../img/name.jpg) center no-repeat; /* Параметры фона */
   background-size: contain; /* Масштабируем фон */
 }
+/*
+Задаем высоту контейнера фоновой картинки в процентном соотношении от ширины
+Параметры фона
+Масштабируем фон
 .bgPicName{
-  /*padding: 30px;*/
-  width: 100%; height: 68vw; /* задаем высоту контейнера фоновой картинки в процентном соотношении от ширины*/
-  background: url(../img/pictureAndName.png) center no-repeat;/* Параметры фона */
-  background-size: contain; /* Масштабируем фон */
-  /*background-color: lightgreen;*/
+  width: 100%; height: 68vw;
+  background: url(../img/pictureAndName.png) center no-repeat;
+  background-size: contain;
 }
-
+*/
 .bgPicName2{
   padding-top: 68.1482%;
   background: rgba(0, 0, 0, 0) url("../img/pictureAndName.png") no-repeat scroll 0px 0px / 100%;
@@ -77,22 +83,30 @@ p{padding-left: 16px;}
   background: url(../img/price.png) center no-repeat;/* Параметры фона */
   background-size: contain; /* Масштабируем фон */
 }
-
+/*
+Задаем высоту контейнера фоновой картинки в процентном соотношении от ширины
+Параметры фона
+Масштабируем фон
 .bgH-moiUsligi{
-  width: 100%; height: 20vw; /* задаем высоту контейнера фоновой картинки в процентном соотношении от ширины*/
-  background: url(../img/h-moiUsligi.png) center no-repeat;/* Параметры фона */
-  background-size: contain; /* Масштабируем фон */
+  width: 100%; height: 20vw;
+  background: url(../img/h-moiUsligi.png) center no-repeat;
+  background-size: contain;
 }
+*/
 .bgH-moiUsligi2{
   padding-top: 20.1852%;
   background: rgba(0, 0, 0, 0) url("../img/h-moiUsligi.png") no-repeat scroll 0px 0px / 100%;
 }
-
+/*
+Задаем высоту контейнера фоновой картинки в процентном соотношении от ширины
+Параметры фона
+Масштабируем фон
 .bgH-MyInterviewAboutPcihoterapia{
-  width: 100%; height: 20vw; /* задаем высоту контейнера фоновой картинки в процентном соотношении от ширины*/
-  background: url(../img/h-MyInterviewAboutPcihoterapia.png) center no-repeat;/* Параметры фона */
-  background-size: contain; /* Масштабируем фон */
+  width: 100%; height: 20vw;
+  background: url(../img/h-MyInterviewAboutPcihoterapia.png) center no-repeat;
+  background-size: contain;
 }
+*/
 .bgH-MyInterviewAboutPcihoterapia2{
   padding-top: 23.5185%;
   background: rgba(0, 0, 0, 0) url("../img/h-MyInterviewAboutPcihoterapia.png") no-repeat scroll 0px 0px / 100%;
